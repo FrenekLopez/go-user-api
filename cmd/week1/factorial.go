@@ -15,5 +15,6 @@ func factorial(n int) int {
 
 func main() {
 	n := 10
+
 	fmt.Printf("Factorial de %d: %d\n", n, factorial(n))
 }
