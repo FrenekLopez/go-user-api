@@ -26,4 +26,8 @@ func main() {
 		return
 	}
 	fmt.Printf("%s es palíndromo: %t\n", word, result)
+	word = strings.ToLower(word)
+
+	word = strings.ToUpper(word)
+	fmt.Println(word)
 }
