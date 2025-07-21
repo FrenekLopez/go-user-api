@@ -1,26 +1,21 @@
- # API de usuario de Go
+# Go User API
 
-Una API RESTful desarrollada con Go como parte de un plan de aprendizaje de 8 semanas para dominar la programación en Go. El proyecto incluirá la gestión de usuarios, la integración con GitHub, comandos SSH y autenticación JWT.
+Una API RESTful construida con Go como parte de un plan de aprendizaje. El proyecto incluirá gestión de usuarios, integración con GitHub, comandos SSH y autenticación JWT.
 
-## Progreso actual
-- **Semana":1 Día:2**: Se inicializó el módulo Go y se creó un programa `hello.go` que imprime "¡Hola, Go!". sera un proyecto de 8 semanas con funcionalidades futuras CRUD, SSH, GitHub, JWT.
+## Progreso Actual
+- **Semana 1, Día 7 (21 de julio de 2025)**: Completados programas básicos para aprender fundamentos de Go y documentación inicial:
+  - `hello.go`: Imprime un saludo para entender la sintaxis básica y la salida por consola.
+  - `circle.go`: Calcula el área de un círculo usando el paquete `math`.
+  - `factorial.go`: Calcula el factorial de un número con funciones y bucles.
+  - `palindrome.go`: Valida palíndromos, manejando cadenas y casos de error.
+  - `vowels.go`: Cuenta vocales en una cadena, practicando iteración de cadenas.
+  - `docs/week1.md`: Documenta los aprendizajes técnicos de la Semana 1, incluyendo conceptos como paquetes, estructuras de control y manejo de errores.
 
-## Progreso actual
-- **Semana":1 Día:3**: Se creo un programa `Area de un circulo` que implirme "El area del circulo:78.5398163397448"
- 
-## Progreso actual
-- **Semana":1 Día:4**: Se creo un programa `El factorial de 10` que imprime el "el factorial de 10"
+## Funcionalidades Planeadas
+- Gestión de Usuarios: Operaciones CRUD en memoria para usuarios.
+- Integración con GitHub: Crear issues y listar repositorios mediante la API de GitHub.
+- Comandos SSH: Ejecutar comandos remotos seguros.
+- Autenticación JWT: Proteger los endpoints de la API.
+- Logging y Documentación: Logs estructurados y documentación con Swagger.
 
-## Progreso actual
-- **Semana":1 Día:5**: Se creo un programa `Identificar un polindrome` que implirme "Imprime la palabra y la identifica si es verdadera o falsa".
-
-
-## Progreso actual
-- **Semana 1, Día 7**: Se completaron programas básicos de Go para aprender los fundamentos:
-- `hello.go`: Imprime un saludo para comprender la sintaxis básica y la salida.
-- `circle.go`: Calcula el área de un círculo usando el paquete `math`.
-- `factorial.go`: Calcula el factorial de un número con funciones y bucles.
-- `palindrome.go`: Valida palíndromos, gestionando cadenas y casos de error.
-- `vowels.go`: Cuenta vocales en una cadena, practicando la iteración de cadenas.
-
-
+## Estructura del Proyecto
